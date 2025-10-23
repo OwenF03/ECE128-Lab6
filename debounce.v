@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 `default_nettype none
 
-module debounce(
+module Debounce(
     input wire btn, 
     input wire clk, 
     output reg led
