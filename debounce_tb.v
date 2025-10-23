@@ -53,7 +53,7 @@ module debounce_tb();
         //Case 3 (clean press for 17 cycles) 
         #2 btn = 1;
         #34 btn = 0;
-        $finish; 
+        #2 $finish; 
     end
     
 endmodule
