@@ -9,7 +9,7 @@ module debounce_tb();
     wire LED; 
     
     //Design under test
-    debounce DUT(.btn(btn), .clk(clk), .led(LED)); 
+    Debounce DUT(.btn(btn), .clk(clk), .led(LED)); 
     
     //Run clock
     always begin
