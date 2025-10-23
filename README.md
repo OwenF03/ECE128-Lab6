@@ -13,25 +13,31 @@ Download all of the provided files and create a new project using AMD Vivado 202
 ## Problem 1 
 
 Design sources : SRFF.v (SR flip flop), SRLatch.v (SR latch)
+
 Simulation sources : sr_tb.v (SR flip flop testbench), SRLatch_tb.v (SR latch testbench)
 
 ## Problem 2 
 
 Design sources : DFF.v (contains both the asynchronous reset module (DFF), and synchronous reset module (DFF_S))
+
 Simulation sources : dff_tb.v
 
 ## Problem 3
 
 Design sources : TFF.v (contains TFF module, and counter module)
+
 Simulation sources : TFF_tb.v (tests both TFF based modules)
 
 ## Problem 4
 
 Design sources : Clock_Divider.v
+
 Simulation sources : clk_tb.v
 
 ## Problem 5
 
 Design Sources : debounce.v
+
 Simulation sources : debounce_tb.v
+
 Constraints : Basys-3-Master.xdc
